@@ -32,7 +32,7 @@ export default function NotesPage() {
         setNote("");
     }
 
-    function deleteBtn(id) {
+    function deleteBtn(id: string) {
         const updatedNotes= notes.filter((note) => note.id !== id);
         setNotes(updatedNotes);
     }

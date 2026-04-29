@@ -5,6 +5,12 @@ You can add notes, delete them, and generate summaries for each note.
 
 ---
 
+🔗 Live Demo:
+
+https://notes-app-nextjs-two.vercel.app/dashboard/notes
+
+---
+
 ## 🚀 Features
 
 * ➕ Add new notes

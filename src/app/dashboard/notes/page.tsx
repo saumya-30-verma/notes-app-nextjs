@@ -37,7 +37,7 @@ export default function NotesPage() {
         setNotes(updatedNotes);
     }
 
-   async function handleSummarise(id, text) {
+   async function handleSummarise(id: string, text: string) {
   if (text.trim() === "") return;
 
   try {

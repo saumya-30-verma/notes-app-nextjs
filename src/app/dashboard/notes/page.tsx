@@ -6,7 +6,9 @@ export default function NotesPage() {
 
     const [note, setNote]= useState("");
     const [summary, setSummary]= useState("");
-    const [notes, setNotes]= useState([]);
+    const [notes, setNotes] = useState<
+  { id: string; text: string; summary: string }[]
+>([]);
 
     useEffect(() => {
       const saved= localStorage.getItem("myNotes");
